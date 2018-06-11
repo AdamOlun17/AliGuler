@@ -19,7 +19,7 @@ console.log(`${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıy�
 
     var Games = [
 
-        "ag!yardım.",
+        "!yardım.",
 
         `》 ${prefix}yardım , ${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıyı + Senin Küfürlerini İzliyor | Geriye Bakma.《`
 
@@ -30,7 +30,7 @@ console.log(`${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıy�
 
         var random = Math.floor(Math.random()*(Games.length-0+1)+0);
 
-        client.user.setGame(Games[random], "https://www.twitch.tv/iwallysyt");
+        client.user.setGame(Games[random], "TWİTCH HESABI");
         }, 2 * 2500);
 
 };
